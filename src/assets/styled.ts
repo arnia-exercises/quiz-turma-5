@@ -27,13 +27,20 @@ export const Header = styled.header`
 `
 
 export const Nav = styled.nav`
-  ul {
-    list-style: none;
-    display: flex;
-    li {
-      cursor: pointer;
-      padding: 5px 10px;
-      font-size: 14px;
-    }
+  a {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
   }
+`
+
+export const Button = styled.button`
+  width: 227px;
+  height: 49px;
+  border: 0;
+  background: #6950A1;
+  color: #fff;
+  border-radius: 1rem;
 `

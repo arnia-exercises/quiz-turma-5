@@ -1,15 +1,9 @@
-type ScreensType = 'create' | 'list' | 'response' | 'finish'
-
-type AnswerType = {
-  id: string
-  description: string
-  correct: boolean
-}
-
-type Quiz = {
+type Question = {
   question: string
-  answer1: AnswerType
-  answer2: AnswerType
-  answer3: AnswerType
-  answer4: AnswerType
+  anwser1: string
+  anwser2: string
+  anwser3: string
+  anwser4: string
+  anwserCorrect: string
+  id: number
 }

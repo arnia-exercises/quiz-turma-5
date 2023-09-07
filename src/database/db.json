@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "question": "Isso será que vai funcionar?",
+      "anwser1": "Sim",
+      "anwser2": "Não",
+      "anwser3": "de forma alguma",
+      "anwser4": "c é loko meu.",
+      "anwserCorrect": "anwser1",
+      "id": 1
+    },
+    {
+      "question": "Vai redirecionar?",
+      "anwser1": "Duvido",
+      "anwser2": "Não",
+      "anwser3": "Claro pô",
+      "anwser4": "É nunca",
+      "anwserCorrect": "anwser3",
+      "id": 2
+    }
+  ]
+}
